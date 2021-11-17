@@ -22,7 +22,7 @@ class _HomeState extends State<Home>{
     const Card3(),
   ];
 
-  // set state function
+  // set state function whenever a menu item is tapped
   void onItemTapped(int index){
     setState(() {
       _selectedIndex = index;

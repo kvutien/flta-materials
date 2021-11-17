@@ -13,7 +13,7 @@ class Card1 extends StatelessWidget{
     return Center(
       // Card1 Decorate Container
       child: Container(
-        // TODO: Add a stack of text
+        // Add a stack of text {category, title, description, chef}
         child: Stack(
           children: [
             Text(category,

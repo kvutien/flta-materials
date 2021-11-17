@@ -21,7 +21,7 @@ class Card3 extends StatelessWidget{
         ),
         child: Stack(
           children: [
-            // TODO 5: add dark overlay BoxDecoration
+            // add dark overlay BoxDecoration
             Container(
               decoration: BoxDecoration(
                 color: Colors.black.withOpacity(0.6),

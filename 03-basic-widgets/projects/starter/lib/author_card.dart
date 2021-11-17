@@ -16,7 +16,6 @@ class AuthorCard extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    // TODO: Replace return Container(...);
     return Container(
       padding: const EdgeInsets.all(16),
       child: Row(
@@ -27,7 +26,6 @@ class AuthorCard extends StatelessWidget{
             imageProvider: imageProvider,
             imageRadius: 28,
           ),
-          const SizedBox(width: 8,),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -41,6 +39,7 @@ class AuthorCard extends StatelessWidget{
               ),
             ],
           ),
+          const SizedBox(width: 8,),
           // add IconButton "like"
           IconButton(
             icon: const Icon(Icons.favorite_border),
