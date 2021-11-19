@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/components.dart';
 import '../models/models.dart';
 
+// display as a grid the recipes thumbnails
 class RecipesGridView extends StatelessWidget{
   final List<SimpleRecipe> recipes;
   const RecipesGridView({

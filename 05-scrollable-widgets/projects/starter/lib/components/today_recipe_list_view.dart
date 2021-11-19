@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/models.dart';
 import '../components/components.dart';
 
+// display first card with recipe of the day and the friends' posts
 class TodayRecipeListView extends StatelessWidget{
   final List<ExploreRecipe> recipes;
   const TodayRecipeListView({Key? key,

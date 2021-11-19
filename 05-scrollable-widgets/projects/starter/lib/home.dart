@@ -13,10 +13,11 @@ class _HomeState extends State<Home> {
   int _selectedIndex = 0;
 
   static List<Widget> pages = <Widget>[
-    // add Widget ExploreScreen
+    // the List is composed of Widget ExploreScreen...
     ExploreScreen(),
-    // TODO: Replace with RecipesScreen
+    // and of Widget RecipesScreen
     RecipesScreen(),
+    // this last widget of the demo is not used
     Container(color: Colors.blue),
   ];
 
@@ -26,6 +27,7 @@ class _HomeState extends State<Home> {
     });
   }
 
+// routing class to manage the navigation between 3 pages
   @override
   Widget build(BuildContext context) {
     return Scaffold(

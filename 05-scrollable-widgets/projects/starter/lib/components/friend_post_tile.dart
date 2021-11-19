@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/components.dart';
 import '../models/models.dart';
 
+// implement a Row containg a friend's post
 class FriendPostTile extends StatelessWidget{
   final Post post;
   const FriendPostTile({

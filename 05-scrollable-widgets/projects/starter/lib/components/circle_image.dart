@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// display an image clipped by a circle
 class CircleImage extends StatelessWidget {
   const CircleImage({
     Key? key,

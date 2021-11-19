@@ -1,6 +1,7 @@
 part 'ingredient.dart';
 part 'instruction.dart';
 
+// ExploreRecipe is returned by an async call to getRecipe
 class RecipeCardType {
   static const card1 = 'card1';
   static const card2 = 'card2';

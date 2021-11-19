@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
 import '../fooderlich_theme.dart';
 import '../models/models.dart';
 
+// implement card3, not used in this demo
 class Card3 extends StatelessWidget {
   final ExploreRecipe recipe;
 

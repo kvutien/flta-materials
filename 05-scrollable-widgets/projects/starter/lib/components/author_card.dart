@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
 import '../fooderlich_theme.dart';
 import 'circle_image.dart';
 
+// header part of the Explore card
+// stateful because it maintains the Fevorite user click
 class AuthorCard extends StatefulWidget {
   final String authorName;
   final String title;

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/models.dart';
 
+// displays a thumbnail illustrating a recipe
 class RecipeThumbnail extends StatelessWidget{
   final SimpleRecipe recipe;
   const RecipeThumbnail({

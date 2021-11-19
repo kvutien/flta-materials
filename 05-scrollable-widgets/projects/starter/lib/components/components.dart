@@ -1,3 +1,4 @@
+// barrel file that can represent all other files
 export 'author_card.dart';
 export 'card1.dart';
 export 'card2.dart';

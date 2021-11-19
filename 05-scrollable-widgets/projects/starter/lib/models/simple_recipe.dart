@@ -1,3 +1,4 @@
+// decodes a JSON file into an object to simulate an API server reply
 class SimpleRecipe {
   String id;
   String dishImage;
